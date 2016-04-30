@@ -24,7 +24,8 @@ alias 'mv=mv -i'
 alias 'cp=cp -i'
 
 # PYTHON support
-if type virtualenvwrapper.sh; then
+if type virtualenvwrapper.sh >/dev/null 2>&1; then
     export WORKON_HOME="${HOME}/.pyenv"
+    mkdir -p ${WORKON_HOME}
     source $(which virtualenvwrapper.sh)
 fi

@@ -1,7 +1,6 @@
 set nocompatible
 set number
 set bs=2
-set columns=80
 set ruler
 set encoding=utf-8
 set fileencoding=utf-8
