@@ -1,0 +1,7 @@
+[user]
+	email = ben.perrard@gmail.com
+	name = Benjamin Perrard
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
