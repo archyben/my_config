@@ -1,0 +1,14 @@
+URxvt.font: xft:Monospace:pixelsize=14.5
+
+! Pas de barre de défilement
+URxvt*scrollBar: False
+!
+! Couleur d arrière plan noir
+URxvt*background: black
+!
+! Couleur d avant plan blanc
+URxvt*foreground: white
+!
+! Dimension du terminal
+URxvt*geometry: 120x40 
+!
