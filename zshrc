@@ -23,6 +23,8 @@ alias 'rm=rm -i'
 alias 'mv=mv -i'
 alias 'cp=cp -i'
 
+eval $(thefuck --alias)
+
 # PYTHON support
 if type virtualenvwrapper.sh >/dev/null 2>&1; then
     export WORKON_HOME="${HOME}/.pyenv"
